@@ -52,3 +52,19 @@
   top: 0;
   left: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .card-section {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .card-content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .card-content:nth-child(2) {
+    margin: 20px auto;
+  }
+}
